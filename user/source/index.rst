@@ -6,3 +6,5 @@ Welcome to the GeoNode Users Workshop! This workshop will teach how to use the `
 .. toctree::
    :maxdepth: 2
 
+   section1/index
+   section2/index
