@@ -1,0 +1,4 @@
+geonode-workshops
+=================
+
+GeoNode Workshops
