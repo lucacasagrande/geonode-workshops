@@ -1,6 +1,12 @@
-.. _sec2:
+.. _search:
 
 Search
 ======
 
-This is the second section. It comes right after :ref:`sec1`.
+This is the Search Section
+
+.. toctree::
+   :maxdepth: 2
+
+   results 
+   advanced 

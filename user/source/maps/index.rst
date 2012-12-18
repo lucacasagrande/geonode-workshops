@@ -1,6 +1,15 @@
-.. _sec2:
+.. _maps:
 
 Maps
 ====
 
-This is the second section. It comes right after :ref:`sec1`.
+This is the Maps Section
+
+.. toctree::
+   :maxdepth: 2
+
+   explore 
+   search 
+   info 
+   create
+   share

@@ -1,6 +1,6 @@
-.. _sec2:
+.. _help:
 
 Help
 ====
 
-This is the second section. It comes right after :ref:`sec1`.
+This is the Help Section.

@@ -6,10 +6,10 @@ Welcome to the GeoNode Users Workshop! This workshop will teach how to use the `
 .. toctree::
    :maxdepth: 2
 
-   introduction/index
+   intro/index
    layers/index
    maps/index
    search/index
-   account/index
+   accounts/index
    social/index
    help/index

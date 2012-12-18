@@ -1,6 +1,15 @@
-.. _sec1:
+.. _layers:
 
 Layers
 ======
 
-This is the first section. It comes right before :ref:`sec2`.
+This is the Layers Section
+
+.. toctree::
+   :maxdepth: 2
+
+   explore
+   search 
+   upload 
+   manage 
+   info 

@@ -1,6 +1,17 @@
-.. _sec2:
+.. _social:
 
 Social
 ======
 
-This is the second section. It comes right after :ref:`sec1`.
+This is the Social Section
+
+.. toctree::
+   :maxdepth: 2
+
+   comments 
+   ratings 
+   announcements
+   notifications
+   relationships
+   activity
+   messages 
