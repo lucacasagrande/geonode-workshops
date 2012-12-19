@@ -10,3 +10,4 @@ Welcome to the GeoNode Users Workshop! This workshop will teach how to use the `
    accounts/index
    layers/index
    maps/index
+   moreinfo/index
