@@ -1,4 +1,4 @@
-.. _layers.index
+.. _layers.index:
 
 Explore Layers
 ==============
