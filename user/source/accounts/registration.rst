@@ -1,6 +1,6 @@
 .. _accounts.registration:
 
-Registration
-============
+Registering for a new account
+=============================
 
 .. todo:: Steps to register for a new account.

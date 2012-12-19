@@ -1,6 +1,6 @@
 .. _accounts.profile:
 
-Profile
-=======
+Managing your profile
+=====================
 
 .. todo:: Managing your profile. Update settings, set language, timezone.
