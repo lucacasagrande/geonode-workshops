@@ -3,16 +3,15 @@
 Layer information
 =================
 
-.. todo:: Metadata? Layer info? Both?
+After upload, another form will displaying, containing metadata about the layer. Change any information as desired, and then click :guilabel:`Update` at the very bottom of the form.
 
-.. todo:: 
+.. figure:: img/layermetadata.png
 
-    Lets look at the Layer Info page
+   *Layer metadata*
 
-    #. Visit the Layer Info Page.
+.. todo:: Do we care about any of this?
 
-        .. figure:: img/layerinfo.png
-            :width: 80%
-            :align: center
+After the update, the layer will display in a preview window.
 
+.. todo:: No option to edit data!
 
