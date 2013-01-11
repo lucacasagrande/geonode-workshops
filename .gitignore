@@ -1,4 +1,4 @@
 # Preventing accidental commits of locally-built projects
 /user/doc/build
-/admin/build
-/devel/build
+/admin/doc/build
+/devel/doc/build
