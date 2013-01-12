@@ -1,4 +1,4 @@
-.. _backup:
+.. _manage:
 
-Backing up and Restoring a GeoNode Installation
-===============================================
+Managing a GeoNode Installation
+===============================

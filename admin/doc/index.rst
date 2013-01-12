@@ -40,16 +40,16 @@ Welcome to the GeoNode Administrators Workshop! This workshop will teach how to 
   Learn how to configure GeoNode
 
 :ref:`manage`
-  Learn how to manage a GeoNode Instance 
+  Learn how to manage a GeoNode installation 
 
 :ref:`theme`
-  Learn how to customize the look and feel of GeoNode
+  Learn how to customize the look and feel of a GeoNode Installation
 
 :ref:`data`
-  Learn how to load and configure data in a GeoNode 
+  Learn how to load and configure data in a GeoNode Installation
 
 :ref:`debug`
-  Learn how to debug and troubleshoot a GeoNode
+  Learn how to debug and troubleshoot a GeoNode Installation
 
 :ref:`backup`
   Learn how to backup and restore GeoNode configuration and datas
