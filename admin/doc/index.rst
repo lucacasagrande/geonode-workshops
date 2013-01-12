@@ -38,5 +38,5 @@ Welcome to the GeoNode Administrators Workshop! This workshop will teach how to 
   Learn how to customize the look and feel of GeoNode
 
 :ref:`deploy`
-  See a sample deployment and learn how to create your own
+  Review a sample project deployment and learn how to create your own
 
