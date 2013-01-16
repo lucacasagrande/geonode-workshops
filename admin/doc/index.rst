@@ -19,7 +19,12 @@ Welcome to the GeoNode Administrators Workshop! This workshop will teach how to 
    prep/index
    install/index
    config/index
+   manage/index
    theme/index
+   data/index
+   debug/index
+   monitor/index
+   backup/index
    deploy/index
 
 :ref:`intro`
@@ -34,9 +39,23 @@ Welcome to the GeoNode Administrators Workshop! This workshop will teach how to 
 :ref:`config`
   Learn how to configure GeoNode
 
+:ref:`manage`
+  Learn how to manage a GeoNode installation 
+
 :ref:`theme`
-  Learn how to customize the look and feel of GeoNode
+  Learn how to customize the look and feel of a GeoNode Installation
+
+:ref:`data`
+  Learn how to load and configure data in a GeoNode Installation
+
+:ref:`debug`
+  Learn how to debug and troubleshoot a GeoNode Installation
+
+:ref:`monitor`
+  Learn how to monitor usage and other activity in a GeoNode Installation 
+
+:ref:`backup`
+  Learn how to backup and restore GeoNode configuration and datas
 
 :ref:`deploy`
-  See a sample deployment and learn how to create your own
-
+  Review a sample GeoNode project deployment and learn how to create your own
