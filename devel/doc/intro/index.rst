@@ -1,49 +1,15 @@
 .. _intro:
 
-Introduction GeoNode development
-================================
+Introduction to GeoNode development
+===================================
 
-.. todo::
+GeoNode is a web based GIS tool, and as such in order to do development on GeoNode itself or to integrate it into your own application, you should be familiar with basic web development concepts as well as with general GIS concepts. A set of reference links on these topics is included at the end of this module.
 
-    From the notes::
 
-      GeoNode Development Overview
-          Toolset
-              Django
-              jQuery/Bootstrap
-              GeoServer
-              pycsw
-          Standards
-              OGC Standards
-              Web Standards
-          Architecture
-              GeoNode Architecture
-              Django Architecture
-              GeoServer APIs
-      Overview of GeoNode Development Prerequisites
-          GeoNode Installation (reference Administrators Workshop)
-          Basic Shell tools (ssh, sudo, apt etc)
-          Python
-              virtualenv
-              pip
-              etc (shell, ipython, pdb etc)
-          Django
-              MVC/MTV Review
-              manage.py
-              Django Admin
-          jQuery
-              Ajax Review
-              Modern js libs
-          Bootstrap CSS
-              Modern CSS Libs in general
-          Dev Tools
-              firebug
-              chrome dev tools
-              logs (apache, geoserver, postgres)
-              JVM tools (jstack, jmap, etc)
-          Deploy Stack
-              Apache
-              mod_wsgi
-              tomcat
-              postgres/postgis
+.. toctree::
+   :maxdepth: 2
 
+   components 
+   standards
+   architecture
+   reference
