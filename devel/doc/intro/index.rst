@@ -3,7 +3,11 @@
 Introduction to GeoNode development
 ===================================
 
-GeoNode is a web based GIS tool, and as such in order to do development on GeoNode itself or to integrate it into your own application, you should be familiar with basic web development concepts as well as with general GIS concepts. A set of reference links on these topics is included at the end of this module.
+This module will introduce you to the components that the GeoNode is built with, the standards that it supports and the services it provides based on those standards, and an overview its architecture.
+
+GeoNode is a web based GIS tool, and as such, in order to do development on GeoNode itself or to integrate it into your own application, you should be familiar with basic web development concepts as well as with general GIS concepts. 
+
+A set of reference links on these topics is included at the end of this module. 
 
 
 .. toctree::
