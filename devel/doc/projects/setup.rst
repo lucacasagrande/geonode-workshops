@@ -31,6 +31,10 @@ If you are working remotely, You should first connect to the machine that has yo
 
     $ python manage.py runserver
 
+#. Visit your new GeoNode Site.
+  
+    http://localhost:8000
+
 Source Code Revision Control
 ----------------------------
 
