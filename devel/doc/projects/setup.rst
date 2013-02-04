@@ -88,8 +88,13 @@ Staying in Sync with Mainline GeoNode
 
 One of the primary reasons that we setup your own GeoNode project using this method is so that you can stay in sync with mainline geonode as the core GeoNode development team makes new releases. Your own project should not be adversely affected by these upstream changes, but you will receive bug fixes and other improvements by staying in sync.
 
-#. Upgrade GeoNode:
-   apt-get update
-   apt-get install geonode
+#. Upgrade GeoNode::
 
-#. Verify that your new project works with the upgraded GeoNode.
+    $ apt-get update
+    $ apt-get install geonode
+
+#. Verify that your new project works with the upgraded GeoNode::
+
+    $ python manage.py runserver
+
+    Visit http://localhost:8000/
