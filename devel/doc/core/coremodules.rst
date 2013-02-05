@@ -24,4 +24,14 @@ geoserver
 geoexplorer
 -----------
 
+Static Site
+-----------
 
+Templates
+~~~~~~~~~
+
+CSS
+~~~
+
+Javascript
+~~~~~~~~~~
