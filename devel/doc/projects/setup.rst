@@ -104,3 +104,50 @@ One of the primary reasons that we setup your own GeoNode project using this met
     $ python manage.py runserver
 
    Visit http://localhost:8000/
+
+Your GeoNode Project's Struture
+-------------------------------
+
+::
+    .
+    ├── README.rst
+    ├── manage.py
+    ├── my_geonode
+    │   ├── __init__.py
+    │   ├── settings.py
+    │   ├── static
+    │   │   ├── README
+    │   │   ├── css
+    │   │   │   └── site_base.css
+    │   │   ├── img
+    │   │   │   └── README
+    │   │   └── js
+    │   │       └── README
+    │   ├── templates
+    │   │   ├── site_base.html
+    │   │   └── site_index.html
+    │   ├── urls.py
+    │   └── wsgi.py
+    └── setup.py
+
+manage.py
+~~~~~~~~~
+
+settings.py
+~~~~~~~~~~~
+
+urls.py
+~~~~~~~
+
+wsgi.py
+~~~~~~~
+
+setup.py
+~~~~~~~~
+
+static
+~~~~~~
+
+templates
+~~~~~~~~~
+
