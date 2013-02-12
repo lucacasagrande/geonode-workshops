@@ -103,15 +103,13 @@ Now that you have added layers from your GeoNode as both WMS and WFS, you can ex
 QGIS
 ----
 
+Quantum GIS or qGIS is an open source, cross platform desktop GIS app. It can also be used to add layers from your GeoNode instance as WMS or WFS. The process is very similar to how we add these same layers to ArcMap, and we will walk through the steps necessary in the following section.
+
+
+
 Google Earth
 ------------
 
 OpenStreetMap
 -------------
-
-WordPress
----------
-
-MapBox
-------
 
