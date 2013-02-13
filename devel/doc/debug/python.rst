@@ -58,3 +58,26 @@ Hints
     .. code-block:: python
 
       logging.info('some var %s is not = %s', x, y)
+
+
+PDB
+---
+
+Reference:
+
+- http://docs.python.org/2/library/pdb.html
+
+For the adventurous, ``pdb`` allows for an interactive debugging session. This
+is only possible when running in a shell via ``manage.py runserver`` or
+``paver runserver``.
+
+To set a breakpoint, insert the following code before the code to debug.
+
+  ..code-block:: python
+
+    import pdb; pdb.set_strace()
+
+When execution reaches this statement, the debugger will activate. The commands
+are noted in the link above. In addition to those debugger specific commands,
+general python statements are supported. For example, typing the name of a
+variable in scope will yield the value via string coersion.
