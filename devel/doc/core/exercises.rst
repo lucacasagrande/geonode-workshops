@@ -8,45 +8,59 @@ Shell and Utilities
 
 #. *ssh* into your virtual machine or other instance
 #. *sudo* to modify the *sshd_config* settings to verify disabling of dns resolution (UseDNS=no)
-#. install a command line helper::
+#. install a command line helper
 
-    sudo apt-get install bash-completion
+  .. code-block:: console
 
-#. exercise command completion::
+    $ sudo apt-get install bash-completion
 
-    apt-get install <TAB><TAB>
+#. exercise command completion
 
-#. activate/deactivate the *virtualenv* on your instance::
+  .. code-block:: console
 
-    source /var/lib/geonode/bin/activate
-    deactivate
+    $ apt-get install <TAB><TAB>
 
-#. set the *DJANGO_SETTINGS_MODULE* env variable::
+#. activate/deactivate the *virtualenv* on your instance
 
-    export DJANGO_SETTINGS_MODULE=geonode.settings
+  .. code-block:: console
 
-#. install the *httpie* utility via pip::
+    $ source /var/lib/geonode/bin/activate
+    $ deactivate
 
-    pip install httpie
-    http http://localhost/geoserver/rest
-    http -a admin http://localhost/geoserver/rest
+#. set the *DJANGO_SETTINGS_MODULE* env variable
+
+  .. code-block:: console
+
+    $ export DJANGO_SETTINGS_MODULE=geonode.settings
+
+#. install the *httpie* utility via pip
+
+  .. code-block:: console
+
+    $ pip install httpie
+    $ http http://localhost/geoserver/rest
+    $ http -a admin http://localhost/geoserver/rest
     <type in password - geoserver>
 
 Python
 ......
 
-#. launch *ipython* and experiment::
+#. launch *ipython* and experiment
 
-    x = "some text"
-    x.<TAB><TAB>
-    x.split.__doc__
-    ?
+  .. code-block:: python
 
-#. execute a script with *ipython* and open the REPL::
+    > x = "some text"
+    > x.<TAB><TAB>
+    > x.split.__doc__
+    > ?
 
-    echo "twos = [ x*2 for x in range(5)]" > test.py
-    ipython -i test.py
-    twos
+#. execute a script with *ipython* and open the REPL
+
+  .. code-block:: console
+
+    $ echo "twos = [ x*2 for x in range(5)]" > test.py
+    $ ipython -i test.py
+    > twos
 
 
 

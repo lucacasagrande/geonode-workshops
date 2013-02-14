@@ -8,23 +8,27 @@ Components and Services
 
 Hint, if ``bash-completion`` is installed, try <TAB><TAB> to get completions.
 
-#. start/stop services::
+#. start/stop services
 
-    sudo service apache2
-    sudo service apache2 reload
-    sudo service tomcat7
-    sudo service postgresql
+  .. code-block:: console
 
-#. basic psql interactions ::
+    $ sudo service apache2
+    $ sudo service apache2 reload
+    $ sudo service tomcat7
+    $ sudo service postgresql
 
-    sudo su - postgres
-    psql
-    help
-    \?
-    \l
-    \c geonode
-    \ds
-    \dS layers_layer
+#. basic psql interactions
+
+  .. code-block:: console
+
+    $ sudo su - postgres
+    $ psql
+    => help                 # get help
+    => \?                   # psql specific commands
+    => \l                   # list databases
+    => \c geonode           # switch database
+    => \ds                  # list tables
+    => \dS layers_layer     # describe table
 
 OGC Standards
 -------------
@@ -35,8 +39,23 @@ WMS
 #. Use the layer preview functionality in GeoServer to bring up a web map.
 #. Copy a the URL for the image in the map.
 #. Alter URL parameters for the request.
-#. Use *curl* to get the capabilities document::
+#. Use *curl* to get the capabilities document
 
-    curl 'http://localhost/geoserver/wms?request=getcapabilities'
+  .. code-block:: console
+
+    $ curl 'http://localhost/geoserver/wms?request=getcapabilities'
+
+More: http://docs.geoserver.org/stable/en/user/services/wms/index.html
+
+WFS
+...
+
+#. Describe a feature type using curl (replace ws:name with your layer)
+
+  .. code-block:: console
+  
+    $ curl 'http://localhost/geoserver/wfs?request=describefeaturetype&name=ws:name
+
+More: http://docs.geoserver.org/stable/en/user/services/wfs/reference.html
   
 
