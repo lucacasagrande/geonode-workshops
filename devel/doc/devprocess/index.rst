@@ -1,4 +1,4 @@
-.. _process:
+.. _devprocess:
 
 GeoNode's development process 
 =============================
