@@ -48,7 +48,7 @@ Layers are a published resource representing a raster or vector spatial data sou
 
 #. To add a layer to your account, navigate to the welcome page. There the following toolbar can be seen:
 
-    .. figure:: ../layers/img/toolbar.png
+    .. figure:: img/toolbar_quickstart.png
 
 #. By clicking the *Layers* link you will be brought to the *Layers* menu where a new subtoolbar can be seen. This toolbar allows you to *Explore*, *Search* and *Upload* layers. 
 
@@ -56,18 +56,15 @@ Layers are a published resource representing a raster or vector spatial data sou
 
 #. Now click *Upload Layers* and you'll see the upload form.
 
-   .. figure:: img/uploadform_new.PNG
+   .. figure:: img/uploadform_new_quickstart.PNG
 
 #. You have two possibilities to add your files. You can either do that by using *drag & drop* or you choose to *browse* them.
    Be aware that you have to upload a complete set of files, consisting of a *shp*, a *prj*, a *dbf* and a *shx* file. If one of them is missing,
    GeoNode will warn you before you upload them.
-   
-   .. figure::
-   .. todo:: figure of set of files!
 
 #. You shold now be able to see all the files you want to upload. 
 
-    .. figure:: TODO!
+   .. figure:: img/files_to_be_uploaded.PNG
 
 #. GeoNode has the ability to restrict who can view, edit, and manage layers. On the right side of the page you can see the *Permission* section, where you can limit the access on your layer. 
    Under *Who can view and download this data*, select *Any registered user*. This will ensure that anonymous view access is disabled.
