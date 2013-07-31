@@ -16,7 +16,7 @@ In this Quickstart guide you will learn the following:
 To start GeoNode on your OSGeoLive DVD you have to choose *Geospatial* => *Browser Clients* => *Start GeoNode* and the GeoNode webpage will automatically
 be opened at http://localhost:8000/ (I assume!). The page will look like shown in the image below.
 
-    .. figure:: img/start_page.PNG
+    .. figure:: img/geonode_start_page.png
 
 1. Register a new account
 ----------------------
@@ -25,7 +25,7 @@ From the interface shown above, one can view and modify existing spatial layers 
 
 #. From any page in the web interface, you will see a *Sign in* link. Click that link, and in the dialog that displays, click the *Register now* link.
 
-   .. figure:: img/signin_quickstart.png
+   .. figure:: img/geonode_signin_quickstart.png
 
 
 #. On the next page, fill out the form. Enter a user name and password in the fields. Also, enter your email address for verification.
@@ -48,15 +48,15 @@ Layers are a published resource representing a raster or vector spatial data sou
 
 #. To add a layer to your account, navigate to the welcome page. There the following toolbar can be seen:
 
-    .. figure:: img/toolbar_quickstart.png
+    .. figure:: img/geonode_toolbar_quickstart.png
 
 #. By clicking the *Layers* link you will be brought to the *Layers* menu where a new subtoolbar can be seen. This toolbar allows you to *Explore*, *Search* and *Upload* layers. 
 
-   .. figure:: img/layerstoolbar_quickstart.png
+   .. figure:: img/geonode_layerstoolbar_quickstart.png
 
 #. Now click *Upload Layers* and you'll see the upload form.
 
-   .. figure:: img/uploadform_new_quickstart.PNG
+   .. figure:: img/geonode_uploadform_new_quickstart.png
 
 #. You have two possibilities to add your files. You can either do that by using *drag & drop* or you choose to *browse* them.
    Be aware that you have to upload a complete set of files, consisting of a *shp*, a *prj*, a *dbf* and a *shx* file. If one of them is missing,
@@ -64,13 +64,13 @@ Layers are a published resource representing a raster or vector spatial data sou
 
 #. You shold now be able to see all the files you want to upload. 
 
-   .. figure:: img/files_to_be_uploaded.PNG
+   .. figure:: img/geonode_files_to_be_uploaded.png
 
 #. GeoNode has the ability to restrict who can view, edit, and manage layers. On the right side of the page you can see the *Permission* section, where you can limit the access on your layer. 
    Under *Who can view and download this data*, select *Any registered user*. This will ensure that anonymous view access is disabled.
    In the same area, under *Who can edit this data*, select your username. This will ensure that only you are able to edit the data in the layer.
 
-    .. figure:: img/permission.PNG
+    .. figure:: img/geonode_permission.png
     
 #. To upload data, click the *Upload* button at the bottom.
 
@@ -82,7 +82,7 @@ The next step for you is to create a map and add the newly created layers to thi
 
 #. Click the *Maps* link on the top toolbar. This will bring up the list of maps. 
 
-   .. figure:: img/maps_quickstart.png
+   .. figure:: img/geonode_maps_quickstart.png
 
 
 #. Currently, there aren't any maps here. To add one click the *Create a New Map* button and a map composition interface will display.
@@ -101,7 +101,7 @@ The next step for you is to create a map and add the newly created layers to thi
 
 #. Select all of the layers by clicking the top entry and Shift-clicking the bottom one. Click *Add Layers* to add them all to the map.
 
-   .. figure:: img/addlayersselect_quickstart.png
+   .. figure:: img/geonode_addlayersselect_quickstart.png
 
 #. The layers will be added to the map. Click *Done* (right next to *Add Layers* at the bottom) to return to the main layers list.
    
