@@ -13,7 +13,7 @@ In this Quickstart guide you will learn the following:
     #. create a map using your new layer
     #. share your map with others
     
-To start GeoNode you have to choose *Geospatial* => *Browser Clients* => *Start GeoNode* and the GeoNode webpage will automatically
+To start GeoNode on your OSGeoLive DVD you have to choose *Geospatial* => *Browser Clients* => *Start GeoNode* and the GeoNode webpage will automatically
 be opened at http://localhost:8000/ (I assume!). The page will look like shown in the image below.
 
     .. figure:: img/start_page.png
@@ -58,26 +58,34 @@ Layers are a published resource representing a raster or vector spatial data sou
 #. Now click *Upload Layers* and you'll see the upload form.
 
    .. figure:: ../layers/img/uploadform.png
+   .. todo:: NEW UPLOAD FORM!!!
 
-#. Fill out this form, according to the following steps:
+#. You have two possibilities to add your files. You can either do that by using *drag & drop* or you choose to *browse* them.
+   Be aware that you have to upload a complete set of files, consisting of a *shp*, a *prj*, a *dbf* and a *shx* file. If one of them is missing,
+   GeoNode will warn you before you upload them.
+   
+   .. figure::
+   .. todo:: figure of set of files!
 
- * Leave the title blank for now (it will be autopopulated based on the file name).
- * Next to the Data field, click the *Browse* button. This will bring up a local file dialog. Navigate to your data folder and select   	the file you want to upload (.shp).
- *  A few new options will appear once this shapefile is selected. Next to the DBF field, click the *Browse* button. This will bring up    		the same local file dialog. Select the a .dbf file.
- * Repeat the same process for the SHX and PRJ fields.
- * Leave the rest of the fields blank.
+#. You shold now be able to see all the files you want to upload. 
 
-#. GeoNode has the ability to restrict who can view, edit, and manage layers. On the right side of the page, under *Who can view and download this data*, select *Any registered user*. This will ensure that anonymous view access is disabled.
+    .. figure:: TODO!
 
-#. In the same area, under *Who can edit this data*, select your username. This will ensure that only you are able to edit the data in the layer.
+#. GeoNode has the ability to restrict who can view, edit, and manage layers. On the right side of the page you can see the *Permission* section, where you can limit the access on your layer. 
+   Under *Who can view and download this data*, select *Any registered user*. This will ensure that anonymous view access is disabled.
+   In the same area, under *Who can edit this data*, select your username. This will ensure that only you are able to edit the data in the layer.
 
-#. Click *Upload* to upload the data and create a layer.
+    .. figure:: TODO!!
+    
+#. To upload data, click the *Upload* button at the bottom.
+
+    .. figure:: TODO!
 
 
 3. Create a new map
 -------------------
 
-The next step for you is to create a map and to add the newly created layer to this map.
+The next step for you is to create a map and add the newly created layers to this map.
 
 #. Click the *Maps* link on the top toolbar. This will bring up the list of maps. 
 
@@ -89,19 +97,18 @@ The next step for you is to create a map and to add the newly created layer to t
    .. figure:: ../maps/img/createmap.png
 
 
-In this interface there is a toolbar, layer list, and map window. The map window contains the MapQuest OpenStreetMap layer by default. There are other service layers available here as well:  Blue Marble, Bing Aerial With Labels, MapQuest, and OpenStreetMap.
+   In this interface there is a toolbar, layer list, and map window. The map window contains the MapQuest OpenStreetMap layer by default. There are other service layers available here as well:  Blue Marble, Bing Aerial With Labels, MapQuest, and OpenStreetMap.
 
 #. Click on the *New Layers* button and select *Add Layers*. 
 
    .. figure:: ../maps/img/addlayerslink.png
 
 
-#. Now you should be able to see all the availabel layers. In your case, this should only be the one you've added before.
-#. Select all of the San Andreas layers by clicking the top entry and Shift-clicking the bottom one. Click *Add Layers* to add them all to the map.
+#. Now you should be able to see all the availabel layers. In your case, this should only be the ones you've added before (San Andreas?).
+
+#. Select all of the layers by clicking the top entry and Shift-clicking the bottom one. Click *Add Layers* to add them all to the map.
 
    .. figure:: ../maps/img/addlayersselect.png
-
-   .. note:: This selection includes not only the two layers uploaded in the previous section, but also the layers that were already hosted on GeoNode at the beginning of the workshop.
 
 #. The layers will be added to the map. Click *Done* (right next to *Add Layers* at the bottom) to return to the main layers list.
 
@@ -131,7 +138,7 @@ In this interface there is a toolbar, layer list, and map window. The map window
 
 Now let's finish our map.
 
-#. Check the box next to the *highway* layer to activate it.  If it is not below the *POI* layer in the list, click and drag it down.
+#. Check the box next to the *highway* layer to activate it. If it is not below the *POI* layer in the list, click and drag it down.
 
    .. figure:: ../maps/img/mapcomposition.png
 
@@ -156,12 +163,10 @@ To be continued
 ---------------
 
 Now you've gotten a quick insight in the possibilities of GeoNode. To learn more about GeoNode and its features, visit our webpage www.geonode.org. 
-To install GeoNode on your own server, follow the guidelines from http://docs.geonode.org/en/latest/intro/install.html (quickstart) or http://docs.geonode.org/en/latest/deploy/install.html (complete installation). 
-In order to get started with GeoNode our documentation might be useful. This can be found http://docs.geonode.org/en/latest/index.html. 
+To install GeoNode on your own server, follow our `Quick Installation Guide <http://docs.geonode.org/en/latest/intro/install.html>`_ or the `Complete Installation Guide <http://docs.geonode.org/en/latest/deploy/install.html>`_. 
+In order to get started with GeoNode our `documentation <http://docs.geonode.org/en/latest/index.html>`_ might be useful.
 
 If you need help or want to get some information about a specific topic please don't hasitate to ask us! You can do this through the #geonode IRC channel using http://webchat.freenode.net/
-or by asking your question in our google group https://groups.google.com/forum/#!forum/geonode-users !
-
-    .. todo:: links!!!
+or by asking your question in our `google group <https://groups.google.com/forum/#!forum/geonode-users>`_ !
     
     
