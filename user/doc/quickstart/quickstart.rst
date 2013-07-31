@@ -16,8 +16,7 @@ In this Quickstart guide you will learn the following:
 To start GeoNode on your OSGeoLive DVD you have to choose *Geospatial* => *Browser Clients* => *Start GeoNode* and the GeoNode webpage will automatically
 be opened at http://localhost:8000/ (I assume!). The page will look like shown in the image below.
 
-    .. figure:: img/start_page.png
-    .. todo:: add this image
+    .. figure:: img/start_page.PNG
 
 1. Register a new account
 ----------------------
@@ -26,7 +25,7 @@ From the interface shown above, one can view and modify existing spatial layers 
 
 #. From any page in the web interface, you will see a *Sign in* link. Click that link, and in the dialog that displays, click the *Register now* link.
 
-   .. figure:: ../accounts/img/signin.png
+   .. figure:: img/signin_quickstart.png
 
 
 #. On the next page, fill out the form. Enter a user name and password in the fields. Also, enter your email address for verification.
@@ -53,12 +52,11 @@ Layers are a published resource representing a raster or vector spatial data sou
 
 #. By clicking the *Layers* link you will be brought to the *Layers* menu where a new subtoolbar can be seen. This toolbar allows you to *Explore*, *Search* and *Upload* layers. 
 
-   .. figure:: ../layers/img/layerstoolbar.png
+   .. figure:: img/layerstoolbar_quickstart.png
 
 #. Now click *Upload Layers* and you'll see the upload form.
 
-   .. figure:: ../layers/img/uploadform.png
-   .. todo:: NEW UPLOAD FORM!!!
+   .. figure:: img/uploadform_new.PNG
 
 #. You have two possibilities to add your files. You can either do that by using *drag & drop* or you choose to *browse* them.
    Be aware that you have to upload a complete set of files, consisting of a *shp*, a *prj*, a *dbf* and a *shx* file. If one of them is missing,
@@ -75,11 +73,9 @@ Layers are a published resource representing a raster or vector spatial data sou
    Under *Who can view and download this data*, select *Any registered user*. This will ensure that anonymous view access is disabled.
    In the same area, under *Who can edit this data*, select your username. This will ensure that only you are able to edit the data in the layer.
 
-    .. figure:: TODO!!
+    .. figure:: img/permission.PNG
     
 #. To upload data, click the *Upload* button at the bottom.
-
-    .. figure:: TODO!
 
 
 3. Create a new map
@@ -89,7 +85,7 @@ The next step for you is to create a map and add the newly created layers to thi
 
 #. Click the *Maps* link on the top toolbar. This will bring up the list of maps. 
 
-   .. figure:: ../intro/img/maps.png
+   .. figure:: img/maps_quickstart.png
 
 
 #. Currently, there aren't any maps here. To add one click the *Create a New Map* button and a map composition interface will display.
@@ -108,11 +104,9 @@ The next step for you is to create a map and add the newly created layers to thi
 
 #. Select all of the layers by clicking the top entry and Shift-clicking the bottom one. Click *Add Layers* to add them all to the map.
 
-   .. figure:: ../maps/img/addlayersselect.png
+   .. figure:: img/addlayersselect_quickstart.png
 
 #. The layers will be added to the map. Click *Done* (right next to *Add Layers* at the bottom) to return to the main layers list.
-
-   .. figure:: ../maps/img/layersadded.png
    
 
 #. To save the map click on the *Map* button in the toolbar, and select *Save Map*.
