@@ -30,12 +30,12 @@ From the interface shown above, one can view and modify existing spatial layers 
 
 #. On the next page, fill out the form. Enter a user name and password in the fields. Also, enter your email address for verification.
 
-   .. figure:: ../accounts/img/signup.png
+   .. figure:: img/geonode_signup.png
 
 
 #. You will be returned to the welcome page. An email will be sent confirming that you have signed up. While you are now logged in, you will need to confirm your account. Navigate to the link that was sent in the email.
 
-   .. figure:: ../accounts/img/confirm.png
+   .. figure:: img/geonode_confirm.png
    
 
 #. By clicking *Confirm* you will be returned to the homepage. Now you've registered an account, you are able to add layers to it as well as create maps and share those with other users. 
@@ -87,14 +87,14 @@ The next step for you is to create a map and add the newly created layers to thi
 
 #. Currently, there aren't any maps here. To add one click the *Create a New Map* button and a map composition interface will display.
 
-   .. figure:: ../maps/img/createmap.png
+   .. figure:: img/geonode_createmap.png
 
 
    In this interface there is a toolbar, layer list, and map window. The map window contains the MapQuest OpenStreetMap layer by default. There are other service layers available here as well:  Blue Marble, Bing Aerial With Labels, MapQuest, and OpenStreetMap.
 
 #. Click on the *New Layers* button and select *Add Layers*. 
 
-   .. figure:: ../maps/img/addlayerslink.png
+   .. figure:: img/geonode_addlayerslink.png
 
 
 #. Now you should be able to see all the availabel layers. In your case, this should only be the ones you've added before (San Andreas?).
@@ -108,17 +108,17 @@ The next step for you is to create a map and add the newly created layers to thi
 
 #. To save the map click on the *Map* button in the toolbar, and select *Save Map*.
 
-   .. figure:: ../maps/img/savemaplink.png
+   .. figure:: img/geonode_savemaplink.png
 
 
 #. Enter a title and abstract for your map.
 
-   .. figure:: ../maps/img/savemapdialog.png
+   .. figure:: img/geonode_savemapdialog.png
 
 
 #. Click *Save*. Notice that the link on the top right of the page changed to reflect the map's name.
 
-   .. figure:: ../maps/img/mapname.png
+   .. figure:: img/geonode_mapname.png
 
 
    This link contains a permalink to your map. If you open this link in a new window, your map will appear exactly as it was saved.
@@ -131,21 +131,21 @@ Now let's finish our map.
 
 #. Check the box next to the *highway* layer to activate it. If it is not below the *POI* layer in the list, click and drag it down.
 
-   .. figure:: ../maps/img/mapcomposition.png
+   .. figure:: img/geonode_mapcomposition.png
 
 
 #. Make any final adjustments to the map composition as desired, including zoom and pan settings.
 
 #. Click the *Map* button in the toolbar, and then click *Publish Map*.
 
-   .. figure:: ../maps/img/publishmaplink.png
+   .. figure:: img/geonode_publishmaplink.png
 
 
 #. The title and abstract as previously created should still be there. Make any adjustments as necessary, and click *Save*.
 
 #. A new dialog will appear with instructions on how to embed this map in a webpage, including a code snippet. You can adjust the parameters as necessary.
 
-   .. figure:: ../maps/img/publishmap.png
+   .. figure:: img/geonode_publishmap.png
 
 
 Your map can now be shared!
